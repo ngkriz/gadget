@@ -1,0 +1,20 @@
+###Solve equations by try an error
+
+for p in range(10):
+    for l in range (10):
+        if 2* p+ 4* l==32:
+          
+            for w in range (10):
+                if 4* p + l + w ==29:     
+                    
+                    for c in range (10):
+                        if p + p + w + w + c + c ==32:
+                            P=p
+                            L=l
+                            W=w
+                            C=c   
+                
+print ('大頭針 ＝' + str(P))
+print ('葉 ＝'+str(L))
+print ('女人 ＝' + str(W))
+print ('圓形 ＝'+ str(C))
